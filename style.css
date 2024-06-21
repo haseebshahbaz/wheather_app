@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #e0f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+}
+
+h1 {
+    color: #00796b;
+}
+
+#city-select {
+    padding: 10px;
+    margin: 20px 0;
+    font-size: 16px;
+}
+
+.weather-details {
+    display: none;
+    background: #b2dfdb;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.weather-details p {
+    margin: 5px 0;
+    color: #004d40;
+}
